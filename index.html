@@ -1,25 +1,218 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>Bài 3</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../Food/bootstrap/bootstrap.min.css">
+    <title>Food.</title>
 </head>
 <body>
-	<h1 style="color: red">STUDENT</h1>
-	<h2 style="color: white">About me</h2>
-	<p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam enim sapien, tempus in tristique ac, commodo eget nulla. Nam condimentum sapien quis erat sodales feugiat. Sed sit amet elementum erat. Phasellus sollicitudin dui ut elementum luctus. Nam ultricies ante a arcu molestie posuere.
-    </p>
-	<h2 style="color: white">About This Site</h2>
-	<p> Welcom to my in-class hope page! As is the case with many webpages, mine is stil under construction</p>
-    <p>	I created this page in a <a href="http://continuingstudies.stanford.edu/">Continuing Studies</a> class at <a href=	"http://www.stanford.edu/">Stanford University.</a>
-    </p>
-    <p>
-    	The website for my class is
-    		<a href="http://www.stanford.edu/group/csp/cs21/">
-    		http://www.stanford.edu/group/csp/cs21/
-    		</a>
-    </p>	
- 	<p>last Updated: TODAY'S DATE<br>Copyright2011, STUDENT</p>
-</body>
+    <header>
+        <a href="#" class="logo">Food<span>.</span></a>
+        <ul class="navigation">
+            <li><a href="#banner">Home</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Menu">Menu</a></li>
+            <li><a href="#Expert">Expert</a></li>
+            <li><a href="#Testimonials">Testimonials</a></li>
+            <li><a href="#Contact">Contact</a></li>
+        </ul>
+        <div class="menutoggle" onclick="toggle();">
+
+        </div>
+    </header>
+    <section class="banner" id="banner">
+        <div class="content">
+            <h2>Always Choose Good</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse non ultricies risus. Donec tempor efficitur sem. Mauris tristique quis ligula eget sollicitudin. Maecenas rutrum maximus eros vehicula vestibulum. Nulla cursus cursus quam eu ullamcorper. Pellentesque nisi dui, tempor vitae convallis sit amet, vestibulum sit amet augue. Sed in diam faucibus, sodales nibh quis, facilisis nisl. Curabitur rutrum, turpis in cursus ultrices, felis nunc semper lacus, vel eleifend tellus purus id mauris. Morbi feugiat nisi quis justo imperdiet, at dapibus ipsum porttitor. Pellentesque vestibulum nisi tortor, at commodo ante vulputate eget.</p>
+             <a href="#" class="btnn">Our Menu</a>
+        </div>
+    </section >
+    <section class="about" id="about">
+        <div class="row">
+            <div class="col50">
+                <h2 class="titleText"><span>A</span>bout Us</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse non ultricies risus. Donec tempor efficitur sem. Mauris tristique quis ligula eget sollicitudin. Maecenas rutrum maximus eros vehicula vestibulum. Nulla cursus cursus quam eu ullamcorper. Pellentesque nisi dui, tempor vitae convallis sit amet, vestibulum sit amet augue. Sed in diam faucibus, sodales nibh quis, facilisis nisl. Curabitur rutrum, turpis in cursus ultrices, felis nunc semper lacus, vel eleifend tellus purus id mauris. Morbi feugiat nisi quis justo imperdiet, at dapibus ipsum porttitor. Pellentesque vestibulum nisi tortor, at commodo ante vulputate eget.</p>
+            </div>
+            <div class="col50">
+                <div class="imgbx">
+                    <img src="../Food/images/img1.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="menu" id="menu">
+        <div class="title">
+            <h2 class="titleText">Our<span>M</span>enu</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+        </div>
+        <div class="content">
+            <div class="box">
+                <div class="imgbx">
+                    <img src="../Food/images/menu1.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h3>Special Salads</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgbx">
+                    <img src="../Food/images/menu2.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h3>Special Soup</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgbx">
+                    <img src="../Food/images/menu3.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h3>Special Salads</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgbx">
+                    <img src="../Food/images/menu4.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h3>Special Soup</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgbx">
+                    <img src="../Food/images/menu5.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h3>Special Salads</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgbx">
+                    <img src="../Food/images/menu6.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h3>Special Pasta</h3>
+                </div>
+            </div>
+        </div>
+        <div class="title">
+            <a href="#1" class="btnn">View All</a>
+        </div>
+    </section>
+
+    <section class="expert" id="expert">
+        <div class="title">
+            <h2 class="titleText">Our Kitchen <span>E</span>xpert</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+            <div class="content">
+                <div class="box">
+                    <div class="imgbx">
+                        <img src="../Food/images/expert1.jpg" alt="">
+                        <div class="text">
+                            <h3>Someone Famous</h3>
+                        </div>
+                    </div>                  
+                </div>
+                <div class="box">
+                    <div class="imgbx">
+                        <img src="../Food/images/expert2.jpg" alt="">
+                        <div class="text">
+                            <h3>Someone Famous</h3>
+                        </div>
+                    </div>                  
+                </div>
+                <div class="box">
+                    <div class="imgbx">
+                        <img src="../Food/images/expert3.jpg" alt="">
+                        <div class="text">
+                            <h3>Someone Famous</h3>
+                        </div>
+                    </div>                  
+                </div> <div class="box">
+                    <div class="imgbx">
+                        <img src="../Food/images/expert4.jpg" alt="">
+                        <div class="text">
+                            <h3>Someone Famous</h3>
+                        </div>
+                    </div>                  
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials" id="testimonials">
+        <div class="title white">
+            <h3 class="titleText">They <span>S</span>aid About Us</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+        </div>
+        <div class="content">
+            <div class="box">
+                <div class="imgbx">
+                    <img src="../Food/images/testi1.jpg" alt="">
+                </div>
+                <div class="text">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse non ultricies risus. Donec tempor efficitur sem. Mauris tristique quis ligula eget sollicitudin. Maecenas rutrum maximus eros vehicula vestibulum. Nulla cursus cursus quam eu ullamcorper. Pellentesque nisi dui, tempor vitae convallis sit amet, vestibulum sit amet augue.</p>
+                    <h3>Someone Famous</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgbx">
+                    <img src="../Food/images/testi2.jpg" alt="">
+                </div>
+                <div class="text">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse non ultricies risus. Donec tempor efficitur sem. Mauris tristique quis ligula eget sollicitudin. Maecenas rutrum maximus eros vehicula vestibulum. Nulla cursus cursus quam eu ullamcorper. Pellentesque nisi dui, tempor vitae convallis sit amet, vestibulum sit amet augue.</p>
+                    <h3>Someone Famous</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgbx">
+                    <img src="../Food/images/testi3.jpg" alt="">
+                </div>
+                <div class="text">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse non ultricies risus. Donec tempor efficitur sem. Mauris tristique quis ligula eget sollicitudin. Maecenas rutrum maximus eros vehicula vestibulum. Nulla cursus cursus quam eu ullamcorper. Pellentesque nisi dui, tempor vitae convallis sit amet, vestibulum sit amet augue.</p>
+                    <h3>Someone Famous</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="title">
+            <h2 class="titleText"><span>C</span>ontact Us</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+        </div>
+        <div class="contactForm">
+            <h3>Send Message</h3>
+            <div class="inputbox">
+                <input type="text" placeholder="Name">
+            </div>
+            <div class="inputbox">
+                <input type="text" placeholder="Email">
+            </div>
+            <div class="inputbox">
+                <textare placeholder="Name"></textarea>
+            </div>
+            <div class="inputbox">
+                <input type="submit" value="Send">
+            </div>
+        </div>
+    </section>
+    <hr>
+    <div class="copyrighttext">
+        <p>Copyright 2020 <a href="https://www.facebook.com/todcoop.ta">Tran Tuan Anh</a>. All Right Reserved</p>
+    </div>
+    <script>
+        window.addEventListener('scroll', function(){
+            const header = document.querySelector('header');
+            header.classList.toggle("sticky", window.scrollY > 0);
+        })
+        function toggle(){
+            const menutoggle = document.querySelector('.menutoggle');
+            const navigation = document.querySelector('.navigation')
+            menutoggle.classList.toggle('active');
+            navigation.classList.toggle('active');
+        }
+    </script>
 </html>
